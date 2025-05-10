@@ -57,31 +57,29 @@ const SkillControl = () => {
 
         {/* Detail Skills */}
         <div className="flex justify-center w-full gap-4 px-9 md:ml-0">
+          {activeIndex !== null && (
+            <div className="border w-full max-w-[800px] px-6 py-6 text-center rounded-xl shadow-glow">
+              {/* Title Kategori */}
+              <h3 className="text-2xl font-semibold text-cyan-300 mb-6 border-b-2">
+              {skills[activeIndex].title}
+              </h3>
 
-        {activeIndex !== null && (
-        <div className="border w-full max-w-[800px] px-6 py-6 text-center rounded-xl shadow-glow">
-
-            {/* Title Kategori */}
-            <h3 className="text-2xl font-semibold text-cyan-300 mb-6 border-b-2">
-            {skills[activeIndex].title}
-            </h3>
-
-            {/* List Skill Icons */}
-            <div className="flex flex-wrap justify-center mt-20">
-            {skills[activeIndex].skills.map((s, idx) => (
-                <div
-                key={idx}
-                className="flex flex-col items-center text-xl basis-1/3 mb-6"
-                >
-                <s.skill className="text-6xl mb-2" />
-                <span>{s.nama}</span>
-                </div>
-            ))}
-        </div>
-  </div>
-)}
-
+              {/* List Skill Icons */}
+              <div className="flex flex-wrap justify-center mt-20">
+                {skills[activeIndex].skills.map((s, idx) => (
+                    <div
+                    key={idx}
+                    className="flex flex-col items-center text-xl basis-1/3 mb-6"
+                    >
+                    <s.skill className="text-6xl mb-2" />
+                    <span>{s.nama}</span>
+                    </div>
+                ))}
+              </div>
             </div>
+          )}
+
+        </div>
       </div>
     </section>
   );
