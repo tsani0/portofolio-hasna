@@ -18,7 +18,7 @@ const ProjectMain = () => {
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                     <div className="text-white text-center opacity-0 translate-y-[40%] group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-150 ease-in-out px-4">
                     <h3 className="text-xl font-bold mb-2">Jago IT</h3>
-                    <p className="text-sm font-semibold">A platform to register to become a talent and assess your performance while working</p>
+                    <p className="text-sm font-semibold">A platform to register to become a talent and assess your performance while working — made with Laravel</p>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ const ProjectMain = () => {
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                     <div className="text-white text-center opacity-0 translate-y-[40%] group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-150 ease-in-out px-4">
                     <h3 className="text-xl font-bold mb-2">Zoozle</h3>
-                    <p className="text-sm">Interactive puzzle game with a zoo theme that sharpens brain skills in solving problems</p>
+                    <p className="text-sm">Interactive puzzle game with a zoo theme that sharpens brain skills in solving problems — made with Unity</p>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ const ProjectMain = () => {
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                     <div className="text-white text-center opacity-0 translate-y-[40%] group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-150 ease-in-out px-4">
                     <h3 className="text-xl font-bold mb-2">Cinema</h3>
-                    <p className="text-sm">A platform that will display a list of films that are currently showing or will be showing from the TMDB database</p>
+                    <p className="text-sm">A platform that will display a list of films that are currently showing or will be showing from the TMDB database — made with Laravel</p>
                     </div>
                 </div>
             </div>
