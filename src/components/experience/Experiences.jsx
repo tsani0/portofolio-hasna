@@ -190,7 +190,7 @@ export default function Experiences() {
                     dateClassName='text-white' 
                     date='30 November 2025'>
                         <h3 className='bg-gradient-purple text-gradient font-semibold text-lg'>Teaching Factory</h3>
-                        <p>Kami diminta untuk membuat sebuah project form talent untuk perusahaan jagoo Talenta Indonesia dan mengklasifikasikan para talent tersebut</p>
+                        <p>Kami diminta untuk membuat sebuah project form talent untuk perusahaan Jagoo Talenta Indonesia dan mengklasifikasikan para talent tersebut. kami menggunakan framework Laravel dalam pembuatan websitenya.</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
