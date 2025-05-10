@@ -169,8 +169,15 @@ export default function Experiences() {
                     }}
                     dateClassName='text-white' 
                     date='7 Desember 2024'>
-                        <h3 className='bg-gradient-purple text-gradient font-semibold text-lg'>Clash of Jawara</h3>
-                        <p>Kompetisi cerdas cermat yang mengangkat tema seputar Bank Sentral</p>
+                        <div className="flex gap-4 items-start">
+                        <a href="/images/junior.png" rel="noopener noreferrer">
+                            <img src="/images/qris.png" alt="AWS Certificate" className="rounded-md" />
+                        </a>
+                            <div>
+                                <h3 className='bg-gradient-purple text-gradient font-semibold text-lg'>Clash of Jawara</h3>
+                                <p>Kompetisi cerdas cermat yang mengangkat tema seputar Bank Sentral</p>
+                            </div>
+                        </div>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -190,7 +197,7 @@ export default function Experiences() {
                     dateClassName='text-white' 
                     date='30 November 2025'>
                         <h3 className='bg-gradient-purple text-gradient font-semibold text-lg'>Teaching Factory</h3>
-                        <p>Kami diminta untuk membuat sebuah project form talent untuk perusahaan Jagoo Talenta Indonesia dan mengklasifikasikan para talent tersebut. kami menggunakan framework Laravel dalam pembuatan websitenya.</p>
+                        <p>Perusahaan Jagoo Talenta Indonesia memberikan sebuah project yang harus diselesaikan berupa website dengan menggunakan Laravel yang bisa mengklasifikasikan para talent mereka sesuai dengan keahliannya masing-masing, serta website yang dapat memantau  kinerja para talent sehari-harinya.</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
