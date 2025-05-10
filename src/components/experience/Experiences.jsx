@@ -13,7 +13,7 @@ export default function Experiences() {
 
     return (
         <div className='mt-[130px]' id='experience' >
-            <h1 className='text-6xl text-gradient bg-gradient-to-r from-[#62cdff] to-[#f042ff] m-10 text-center'>Sertificate</h1>
+            <h1 className='text-6xl text-gradient bg-gradient-to-r from-[#62cdff] to-[#f042ff] m-10 text-center'>Certificate</h1>
             <VerticalTimeline lineColor='grey' className='text-white'>
                 <VerticalTimelineElement
                     className='vertical-timeline-element--sertif ' 
