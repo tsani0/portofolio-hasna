@@ -56,9 +56,11 @@ const SkillControl = () => {
         </div>
 
         {/* Detail Skills */}
-        <div className="flex justify-center w-full gap-4 px-9 md:ml-[-300px]">
+        <div className="flex justify-center w-full gap-4 px-9 md:ml-0">
+
         {activeIndex !== null && (
-        <div className="border w-[800px] px-9 py-6 text-center rounded-xl shadow-glow">
+        <div className="border w-full max-w-[800px] px-6 py-6 text-center rounded-xl shadow-glow">
+
             {/* Title Kategori */}
             <h3 className="text-2xl font-semibold text-cyan-300 mb-6 border-b-2">
             {skills[activeIndex].title}
